@@ -26,3 +26,82 @@ SHA512: 58141047cf9cb30021dc66cdd44031d7fe62ab2b9f53ad3fee0bbc9d336c39e30a17a9ad
 Description: A program that prints hello
 Homepage: http://example.com
 
+Package: linux-headers-5.10.61-stm32-r1
+Priority: optional
+Section: kernel
+Installed-Size: 47331
+Maintainer: cxn <cxn@stu>
+Architecture: armhf
+Source: linux-upstream
+Version: 1stable
+Filename: pool/main/l/linux-upstream/linux-headers-5.10.61-stm32-r1_1stable_armhf.deb
+Size: 7622088
+MD5sum: 754b96eb9c092f42aa2d7c2d5040c6aa
+SHA1: 777d85b8d268a8b0edea6efc4e8f7faf437b48ae
+SHA256: d8efba3ee9232a5b880b1ce4b077c06cddcd010c0b235719838b689223364cd1
+SHA512: 1aeb168bf504ac10c8f0017e6cbf47e3eea6fb959e0ea30980b9776daf8fd24db6b08baa84260d8ae14ee19423039281d658c65aef77b6d112b589ce0a634977
+Description: Linux kernel headers for 5.10.61-stm32-r1 on armhf
+ This package provides kernel header files for 5.10.61-stm32-r1 on armhf
+ .
+ This is useful for people who need to build external modules
+Homepage: https://www.kernel.org/
+
+Package: linux-image-5.10.61-stm32-r1
+Priority: optional
+Section: kernel
+Installed-Size: 35059
+Maintainer: cxn <cxn@stu>
+Architecture: armhf
+Source: linux-upstream
+Version: 1stable
+Filename: pool/main/l/linux-upstream/linux-image-5.10.61-stm32-r1_1stable_armhf.deb
+Size: 12761784
+MD5sum: b7d3d44a27a78cfd3c2e54f1b7943d79
+SHA1: 1ef6c6b670ba0ce668f10a40e44e366a391d69a4
+SHA256: 8f50f7464ee4800de7cc476bb222a2f8cbc1809ddb69d93b2cecdcf67cc0f276
+SHA512: f01bd84c04a6d45427c4910a40cea0d9d5e9a9bf2c2ee25d5f5b94699c4837cc5cc928c337b85d11705ff7785c12f6eab3659271b9c0778a4e22a35b94267d9d
+Description: Linux kernel, version 5.10.61-stm32-r1
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.61-stm32-r1.
+Homepage: https://www.kernel.org/
+
+Package: linux-image-5.10.61-stm32-r1-dbg
+Priority: optional
+Section: debug
+Installed-Size: 669260
+Maintainer: cxn <cxn@stu>
+Architecture: armhf
+Source: linux-upstream
+Version: 1stable
+Filename: pool/main/l/linux-upstream/linux-image-5.10.61-stm32-r1-dbg_1stable_armhf.deb
+Size: 155867372
+MD5sum: 9dc4d48687c161dc8f977504bc792c6c
+SHA1: 87f637b65850ab4abbc171701fe92451a53b8ca3
+SHA256: 16c5bde9fa49fc343ac9fc09f4e8cd2965ecd545fda74b726b010220f4366144
+SHA512: 2fe02fd53eaeebb005cc899ac6db58c68b952d978f16b3273340b78e59994324e5a786cd1899cc4cc03a7aa925a8067459bd648d2cf7e99fb0f117f16a8df4e0
+Description: Linux kernel debugging symbols for 5.10.61-stm32-r1
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.
+Homepage: https://www.kernel.org/
+
+Package: linux-libc-dev
+Priority: optional
+Section: devel
+Installed-Size: 5741
+Maintainer: cxn <cxn@stu>
+Architecture: armhf
+Source: linux-upstream
+Version: 1stable
+Provides: linux-kernel-headers
+Filename: pool/main/l/linux-upstream/linux-libc-dev_1stable_armhf.deb
+Size: 1105880
+MD5sum: 7c0de267f6d9fb7f4286d890e596c72a
+SHA1: 995504e02303f5cc0b877f5f32ae7ad4dce8e380
+SHA256: e77c6b35d211b5cbdbc6c28bd5c6f32eec7ddb6894892240e77a45e76f057144
+SHA512: 95732f9b3987b677e0ec9fdd2483ecfaf950c8635f84e608073a7f00d3ce19ca138cfa64756089e1ff82abd4610a44e309ad50a8004778779e87ac79e8c5141f
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Homepage: https://www.kernel.org/
+Multi-Arch: same
+
