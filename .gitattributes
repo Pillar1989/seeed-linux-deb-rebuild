@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+pool/main/l/linux-upstream/linux-image-5.10.61-stm32-r1-dbg_1stable_armhf.deb filter=lfs diff=lfs merge=lfs -text
+=======
+./pool/main/l/linux-upstream/linux-image-5.10.61-stm32-r1-dbg_1stable_armhf.deb filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 908e62c3e1781ff8ca42f371307a9b32aad9aae2
