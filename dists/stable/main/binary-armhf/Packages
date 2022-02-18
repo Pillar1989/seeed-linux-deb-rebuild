@@ -46,25 +46,6 @@ Description: Linux kernel headers for 5.10.61-stm32-r1 on armhf
  This is useful for people who need to build external modules
 Homepage: https://www.kernel.org/
 
-Package: linux-image-5.10.61-stm32-r1
-Priority: optional
-Section: kernel
-Installed-Size: 35059
-Maintainer: cxn <cxn@stu>
-Architecture: armhf
-Source: linux-upstream
-Version: 1stable
-Filename: pool/main/l/linux-upstream/linux-image-5.10.61-stm32-r1_1stable_armhf.deb
-Size: 12761784
-MD5sum: b7d3d44a27a78cfd3c2e54f1b7943d79
-SHA1: 1ef6c6b670ba0ce668f10a40e44e366a391d69a4
-SHA256: 8f50f7464ee4800de7cc476bb222a2f8cbc1809ddb69d93b2cecdcf67cc0f276
-SHA512: f01bd84c04a6d45427c4910a40cea0d9d5e9a9bf2c2ee25d5f5b94699c4837cc5cc928c337b85d11705ff7785c12f6eab3659271b9c0778a4e22a35b94267d9d
-Description: Linux kernel, version 5.10.61-stm32-r1
- This package contains the Linux kernel, modules and corresponding other
- files, version: 5.10.61-stm32-r1.
-Homepage: https://www.kernel.org/
-
 Package: linux-image-5.10.61-stm32-r1-dbg
 Priority: optional
 Section: debug
