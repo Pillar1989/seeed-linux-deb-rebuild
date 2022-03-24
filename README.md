@@ -12,7 +12,7 @@
 
 * deb install
 ```
-  curl https://seeed-studio.github.io/seeed-linux-deb-rebuild/public.key | sudo apt-key add -
+  curl https://seeed-studio.github.io/seeed-linux-deb-rebuild/pgp-key.public | sudo apt-key add -
   
   apt-get install xxx
 ```
